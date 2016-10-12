@@ -1,9 +1,11 @@
 
 ## 前沿
 
-* 项目中有时需要自定义 UIActionSheet 与 UIAlertView 来满足 app 界面的美观
+* 项目中有时需要自定义 UIActionSheet 和 UIAlertView 来满足 app 界面的美观；以及购物类的 app 会遇到 UIPickerView 还有 UIDatePicker
 
 * 这里的 SGActionSheet 采取的是微信、微博界面的布局样式,  SGAlertView 采取的是美团外卖的布局样式
+
+* 这里的 SGPickerView 和 SGDatePicker 采取常见的两种样式来满足更多人的需求
 
 * 轻轻的我走了，正如我轻轻的来，我动一动鼠标，就是为了给你 Star (喜欢的朋友别忘了哦 😊 😊）
 
@@ -15,6 +17,10 @@
 * `自定义 UIActionSheet (仿微信、微博)`<br>
 
 * `自定义 UIAlertView (仿美团外卖)`<br>
+
+* `对 UIPickerView 的封装`<br>
+
+* `对 UIDatePicker 的封装`<br>
 
 
 ## 效果图
@@ -94,7 +100,7 @@
 - (CGRect)boundingRectWithSize:(CGSize)size options:(NSStringDrawingOptions)options attributes:(nullable NSDictionary *)attributes context:(nullable NSStringDrawingContext *)context;
 ```
 
-## SGPickerView_DatePicker
+### * `SGPickerView_DatePicker`<br>
 
 * 将项目中SGPickerView_DatePicker文件夹拖入工程
 

@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185401EE1DADDEDD0003FDA2 /* SGActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 185401E51DADDEDD0003FDA2 /* SGActionSheet.bundle */; };
+		185401EF1DADDEDD0003FDA2 /* SGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401E71DADDEDD0003FDA2 /* SGActionSheet.m */; };
+		185401F01DADDEDD0003FDA2 /* SGActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401E91DADDEDD0003FDA2 /* SGActionSheetCell.m */; };
+		185401F11DADDEDD0003FDA2 /* SGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401EB1DADDEDD0003FDA2 /* SGAlertView.m */; };
+		185401F21DADDEDD0003FDA2 /* UIView+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401ED1DADDEDD0003FDA2 /* UIView+SGExtension.m */; };
+		185402041DADE4EA0003FDA2 /* SGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401F51DADE4EA0003FDA2 /* SGDatePicker.m */; };
+		185402051DADE4EA0003FDA2 /* SGDatePickerCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401F71DADE4EA0003FDA2 /* SGDatePickerCenterView.m */; };
+		185402061DADE4EA0003FDA2 /* SGDatePickerCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185401F81DADE4EA0003FDA2 /* SGDatePickerCenterView.xib */; };
+		185402071DADE4EA0003FDA2 /* SGDatePickerSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401FA1DADE4EA0003FDA2 /* SGDatePickerSheetView.m */; };
+		185402081DADE4EA0003FDA2 /* SGDatePickerSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185401FB1DADE4EA0003FDA2 /* SGDatePickerSheetView.xib */; };
+		185402091DADE4EA0003FDA2 /* SGLocationPickerCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185401FD1DADE4EA0003FDA2 /* SGLocationPickerCenterView.m */; };
+		1854020A1DADE4EA0003FDA2 /* SGLocationPickerCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185401FE1DADE4EA0003FDA2 /* SGLocationPickerCenterView.xib */; };
+		1854020B1DADE4EA0003FDA2 /* SGLocationPickerSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185402001DADE4EA0003FDA2 /* SGLocationPickerSheetView.m */; };
+		1854020C1DADE4EA0003FDA2 /* SGLocationPickerSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185402011DADE4EA0003FDA2 /* SGLocationPickerSheetView.xib */; };
+		1854020D1DADE4EA0003FDA2 /* SGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185402031DADE4EA0003FDA2 /* SGPickerView.m */; };
+		1854020F1DADE5EE0003FDA2 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1854020E1DADE5EE0003FDA2 /* Address.plist */; };
+		18E34A8A1DADCA3800D6675F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E34A891DADCA3800D6675F /* main.m */; };
+		18E34A8D1DADCA3800D6675F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E34A8C1DADCA3800D6675F /* AppDelegate.m */; };
+		18E34A901DADCA3800D6675F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E34A8F1DADCA3800D6675F /* ViewController.m */; };
+		18E34A931DADCA3800D6675F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E34A911DADCA3800D6675F /* Main.storyboard */; };
+		18E34A951DADCA3800D6675F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E34A941DADCA3800D6675F /* Assets.xcassets */; };
+		18E34A981DADCA3800D6675F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E34A961DADCA3800D6675F /* LaunchScreen.storyboard */; };
+		18E34AA31DADCA3800D6675F /* SGPopupViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E34AA21DADCA3800D6675F /* SGPopupViewExampleTests.m */; };
+		18E34AAE1DADCA3800D6675F /* SGPopupViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E34AAD1DADCA3800D6675F /* SGPopupViewExampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E34A9F1DADCA3800D6675F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E34A7D1DADCA3700D6675F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E34A841DADCA3700D6675F;
+			remoteInfo = SGPopupViewExample;
+		};
+		18E34AAA1DADCA3800D6675F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E34A7D1DADCA3700D6675F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E34A841DADCA3700D6675F;
+			remoteInfo = SGPopupViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185401E51DADDEDD0003FDA2 /* SGActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGActionSheet.bundle; sourceTree = "<group>"; };
+		185401E61DADDEDD0003FDA2 /* SGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGActionSheet.h; sourceTree = "<group>"; };
+		185401E71DADDEDD0003FDA2 /* SGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGActionSheet.m; sourceTree = "<group>"; };
+		185401E81DADDEDD0003FDA2 /* SGActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGActionSheetCell.h; sourceTree = "<group>"; };
+		185401E91DADDEDD0003FDA2 /* SGActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGActionSheetCell.m; sourceTree = "<group>"; };
+		185401EA1DADDEDD0003FDA2 /* SGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAlertView.h; sourceTree = "<group>"; };
+		185401EB1DADDEDD0003FDA2 /* SGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAlertView.m; sourceTree = "<group>"; };
+		185401EC1DADDEDD0003FDA2 /* UIView+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGExtension.h"; sourceTree = "<group>"; };
+		185401ED1DADDEDD0003FDA2 /* UIView+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGExtension.m"; sourceTree = "<group>"; };
+		185401F41DADE4EA0003FDA2 /* SGDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePicker.h; sourceTree = "<group>"; };
+		185401F51DADE4EA0003FDA2 /* SGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePicker.m; sourceTree = "<group>"; };
+		185401F61DADE4EA0003FDA2 /* SGDatePickerCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePickerCenterView.h; sourceTree = "<group>"; };
+		185401F71DADE4EA0003FDA2 /* SGDatePickerCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePickerCenterView.m; sourceTree = "<group>"; };
+		185401F81DADE4EA0003FDA2 /* SGDatePickerCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGDatePickerCenterView.xib; sourceTree = "<group>"; };
+		185401F91DADE4EA0003FDA2 /* SGDatePickerSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePickerSheetView.h; sourceTree = "<group>"; };
+		185401FA1DADE4EA0003FDA2 /* SGDatePickerSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePickerSheetView.m; sourceTree = "<group>"; };
+		185401FB1DADE4EA0003FDA2 /* SGDatePickerSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGDatePickerSheetView.xib; sourceTree = "<group>"; };
+		185401FC1DADE4EA0003FDA2 /* SGLocationPickerCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationPickerCenterView.h; sourceTree = "<group>"; };
+		185401FD1DADE4EA0003FDA2 /* SGLocationPickerCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationPickerCenterView.m; sourceTree = "<group>"; };
+		185401FE1DADE4EA0003FDA2 /* SGLocationPickerCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGLocationPickerCenterView.xib; sourceTree = "<group>"; };
+		185401FF1DADE4EA0003FDA2 /* SGLocationPickerSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationPickerSheetView.h; sourceTree = "<group>"; };
+		185402001DADE4EA0003FDA2 /* SGLocationPickerSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationPickerSheetView.m; sourceTree = "<group>"; };
+		185402011DADE4EA0003FDA2 /* SGLocationPickerSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGLocationPickerSheetView.xib; sourceTree = "<group>"; };
+		185402021DADE4EA0003FDA2 /* SGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPickerView.h; sourceTree = "<group>"; };
+		185402031DADE4EA0003FDA2 /* SGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPickerView.m; sourceTree = "<group>"; };
+		1854020E1DADE5EE0003FDA2 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		18E34A851DADCA3800D6675F /* SGPopupViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPopupViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E34A891DADCA3800D6675F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E34A8B1DADCA3800D6675F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E34A8C1DADCA3800D6675F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E34A8E1DADCA3800D6675F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E34A8F1DADCA3800D6675F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E34A921DADCA3800D6675F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E34A941DADCA3800D6675F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E34A971DADCA3800D6675F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E34A991DADCA3800D6675F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E34A9E1DADCA3800D6675F /* SGPopupViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPopupViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E34AA21DADCA3800D6675F /* SGPopupViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPopupViewExampleTests.m; sourceTree = "<group>"; };
+		18E34AA41DADCA3800D6675F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E34AA91DADCA3800D6675F /* SGPopupViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPopupViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E34AAD1DADCA3800D6675F /* SGPopupViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPopupViewExampleUITests.m; sourceTree = "<group>"; };
+		18E34AAF1DADCA3800D6675F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E34A821DADCA3700D6675F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E34A9B1DADCA3800D6675F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E34AA61DADCA3800D6675F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185401E31DADDECF0003FDA2 /* SGPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				185401E41DADDEDD0003FDA2 /* SGActionSheet */,
+				185401F31DADE4EA0003FDA2 /* SGPickerView_DatePicker */,
+			);
+			path = SGPopupView;
+			sourceTree = "<group>";
+		};
+		185401E41DADDEDD0003FDA2 /* SGActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				185401E51DADDEDD0003FDA2 /* SGActionSheet.bundle */,
+				185401E61DADDEDD0003FDA2 /* SGActionSheet.h */,
+				185401E71DADDEDD0003FDA2 /* SGActionSheet.m */,
+				185401E81DADDEDD0003FDA2 /* SGActionSheetCell.h */,
+				185401E91DADDEDD0003FDA2 /* SGActionSheetCell.m */,
+				185401EA1DADDEDD0003FDA2 /* SGAlertView.h */,
+				185401EB1DADDEDD0003FDA2 /* SGAlertView.m */,
+				185401EC1DADDEDD0003FDA2 /* UIView+SGExtension.h */,
+				185401ED1DADDEDD0003FDA2 /* UIView+SGExtension.m */,
+			);
+			path = SGActionSheet;
+			sourceTree = "<group>";
+		};
+		185401F31DADE4EA0003FDA2 /* SGPickerView_DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				185402021DADE4EA0003FDA2 /* SGPickerView.h */,
+				185402031DADE4EA0003FDA2 /* SGPickerView.m */,
+				185401F41DADE4EA0003FDA2 /* SGDatePicker.h */,
+				185401F51DADE4EA0003FDA2 /* SGDatePicker.m */,
+				185401F61DADE4EA0003FDA2 /* SGDatePickerCenterView.h */,
+				185401F71DADE4EA0003FDA2 /* SGDatePickerCenterView.m */,
+				185401F81DADE4EA0003FDA2 /* SGDatePickerCenterView.xib */,
+				185401F91DADE4EA0003FDA2 /* SGDatePickerSheetView.h */,
+				185401FA1DADE4EA0003FDA2 /* SGDatePickerSheetView.m */,
+				185401FB1DADE4EA0003FDA2 /* SGDatePickerSheetView.xib */,
+				185401FC1DADE4EA0003FDA2 /* SGLocationPickerCenterView.h */,
+				185401FD1DADE4EA0003FDA2 /* SGLocationPickerCenterView.m */,
+				185401FE1DADE4EA0003FDA2 /* SGLocationPickerCenterView.xib */,
+				185401FF1DADE4EA0003FDA2 /* SGLocationPickerSheetView.h */,
+				185402001DADE4EA0003FDA2 /* SGLocationPickerSheetView.m */,
+				185402011DADE4EA0003FDA2 /* SGLocationPickerSheetView.xib */,
+				1854020E1DADE5EE0003FDA2 /* Address.plist */,
+			);
+			path = SGPickerView_DatePicker;
+			sourceTree = "<group>";
+		};
+		18E34A7C1DADCA3700D6675F = {
+			isa = PBXGroup;
+			children = (
+				185401E31DADDECF0003FDA2 /* SGPopupView */,
+				18E34A871DADCA3800D6675F /* SGPopupViewExample */,
+				18E34AA11DADCA3800D6675F /* SGPopupViewExampleTests */,
+				18E34AAC1DADCA3800D6675F /* SGPopupViewExampleUITests */,
+				18E34A861DADCA3800D6675F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E34A861DADCA3800D6675F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E34A851DADCA3800D6675F /* SGPopupViewExample.app */,
+				18E34A9E1DADCA3800D6675F /* SGPopupViewExampleTests.xctest */,
+				18E34AA91DADCA3800D6675F /* SGPopupViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E34A871DADCA3800D6675F /* SGPopupViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				18E34A8B1DADCA3800D6675F /* AppDelegate.h */,
+				18E34A8C1DADCA3800D6675F /* AppDelegate.m */,
+				18E34A8E1DADCA3800D6675F /* ViewController.h */,
+				18E34A8F1DADCA3800D6675F /* ViewController.m */,
+				18E34A911DADCA3800D6675F /* Main.storyboard */,
+				18E34A941DADCA3800D6675F /* Assets.xcassets */,
+				18E34A961DADCA3800D6675F /* LaunchScreen.storyboard */,
+				18E34A991DADCA3800D6675F /* Info.plist */,
+				18E34A881DADCA3800D6675F /* Supporting Files */,
+			);
+			path = SGPopupViewExample;
+			sourceTree = "<group>";
+		};
+		18E34A881DADCA3800D6675F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E34A891DADCA3800D6675F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E34AA11DADCA3800D6675F /* SGPopupViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E34AA21DADCA3800D6675F /* SGPopupViewExampleTests.m */,
+				18E34AA41DADCA3800D6675F /* Info.plist */,
+			);
+			path = SGPopupViewExampleTests;
+			sourceTree = "<group>";
+		};
+		18E34AAC1DADCA3800D6675F /* SGPopupViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E34AAD1DADCA3800D6675F /* SGPopupViewExampleUITests.m */,
+				18E34AAF1DADCA3800D6675F /* Info.plist */,
+			);
+			path = SGPopupViewExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E34A841DADCA3700D6675F /* SGPopupViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E34AB21DADCA3800D6675F /* Build configuration list for PBXNativeTarget "SGPopupViewExample" */;
+			buildPhases = (
+				18E34A811DADCA3700D6675F /* Sources */,
+				18E34A821DADCA3700D6675F /* Frameworks */,
+				18E34A831DADCA3700D6675F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGPopupViewExample;
+			productName = SGPopupViewExample;
+			productReference = 18E34A851DADCA3800D6675F /* SGPopupViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E34A9D1DADCA3800D6675F /* SGPopupViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E34AB51DADCA3800D6675F /* Build configuration list for PBXNativeTarget "SGPopupViewExampleTests" */;
+			buildPhases = (
+				18E34A9A1DADCA3800D6675F /* Sources */,
+				18E34A9B1DADCA3800D6675F /* Frameworks */,
+				18E34A9C1DADCA3800D6675F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E34AA01DADCA3800D6675F /* PBXTargetDependency */,
+			);
+			name = SGPopupViewExampleTests;
+			productName = SGPopupViewExampleTests;
+			productReference = 18E34A9E1DADCA3800D6675F /* SGPopupViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E34AA81DADCA3800D6675F /* SGPopupViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E34AB81DADCA3800D6675F /* Build configuration list for PBXNativeTarget "SGPopupViewExampleUITests" */;
+			buildPhases = (
+				18E34AA51DADCA3800D6675F /* Sources */,
+				18E34AA61DADCA3800D6675F /* Frameworks */,
+				18E34AA71DADCA3800D6675F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E34AAB1DADCA3800D6675F /* PBXTargetDependency */,
+			);
+			name = SGPopupViewExampleUITests;
+			productName = SGPopupViewExampleUITests;
+			productReference = 18E34AA91DADCA3800D6675F /* SGPopupViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E34A7D1DADCA3700D6675F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E34A841DADCA3700D6675F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					18E34A9D1DADCA3800D6675F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E34A841DADCA3700D6675F;
+					};
+					18E34AA81DADCA3800D6675F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E34A841DADCA3700D6675F;
+					};
+				};
+			};
+			buildConfigurationList = 18E34A801DADCA3700D6675F /* Build configuration list for PBXProject "SGPopupViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E34A7C1DADCA3700D6675F;
+			productRefGroup = 18E34A861DADCA3800D6675F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E34A841DADCA3700D6675F /* SGPopupViewExample */,
+				18E34A9D1DADCA3800D6675F /* SGPopupViewExampleTests */,
+				18E34AA81DADCA3800D6675F /* SGPopupViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E34A831DADCA3700D6675F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E34A981DADCA3800D6675F /* LaunchScreen.storyboard in Resources */,
+				185401EE1DADDEDD0003FDA2 /* SGActionSheet.bundle in Resources */,
+				18E34A951DADCA3800D6675F /* Assets.xcassets in Resources */,
+				1854020F1DADE5EE0003FDA2 /* Address.plist in Resources */,
+				1854020C1DADE4EA0003FDA2 /* SGLocationPickerSheetView.xib in Resources */,
+				1854020A1DADE4EA0003FDA2 /* SGLocationPickerCenterView.xib in Resources */,
+				185402061DADE4EA0003FDA2 /* SGDatePickerCenterView.xib in Resources */,
+				185402081DADE4EA0003FDA2 /* SGDatePickerSheetView.xib in Resources */,
+				18E34A931DADCA3800D6675F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E34A9C1DADCA3800D6675F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E34AA71DADCA3800D6675F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E34A811DADCA3700D6675F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185401F21DADDEDD0003FDA2 /* UIView+SGExtension.m in Sources */,
+				18E34A901DADCA3800D6675F /* ViewController.m in Sources */,
+				185402071DADE4EA0003FDA2 /* SGDatePickerSheetView.m in Sources */,
+				1854020B1DADE4EA0003FDA2 /* SGLocationPickerSheetView.m in Sources */,
+				18E34A8D1DADCA3800D6675F /* AppDelegate.m in Sources */,
+				185402051DADE4EA0003FDA2 /* SGDatePickerCenterView.m in Sources */,
+				185401F01DADDEDD0003FDA2 /* SGActionSheetCell.m in Sources */,
+				18E34A8A1DADCA3800D6675F /* main.m in Sources */,
+				185401EF1DADDEDD0003FDA2 /* SGActionSheet.m in Sources */,
+				185401F11DADDEDD0003FDA2 /* SGAlertView.m in Sources */,
+				185402041DADE4EA0003FDA2 /* SGDatePicker.m in Sources */,
+				185402091DADE4EA0003FDA2 /* SGLocationPickerCenterView.m in Sources */,
+				1854020D1DADE4EA0003FDA2 /* SGPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E34A9A1DADCA3800D6675F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E34AA31DADCA3800D6675F /* SGPopupViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E34AA51DADCA3800D6675F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E34AAE1DADCA3800D6675F /* SGPopupViewExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E34AA01DADCA3800D6675F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E34A841DADCA3700D6675F /* SGPopupViewExample */;
+			targetProxy = 18E34A9F1DADCA3800D6675F /* PBXContainerItemProxy */;
+		};
+		18E34AAB1DADCA3800D6675F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E34A841DADCA3700D6675F /* SGPopupViewExample */;
+			targetProxy = 18E34AAA1DADCA3800D6675F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E34A911DADCA3800D6675F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E34A921DADCA3800D6675F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E34A961DADCA3800D6675F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E34A971DADCA3800D6675F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E34AB01DADCA3800D6675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E34AB11DADCA3800D6675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E34AB31DADCA3800D6675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGPopupViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sorgle.SGPopupViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E34AB41DADCA3800D6675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGPopupViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sorgle.SGPopupViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E34AB61DADCA3800D6675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGPopupViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sorgle.SGPopupViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGPopupViewExample.app/SGPopupViewExample";
+			};
+			name = Debug;
+		};
+		18E34AB71DADCA3800D6675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGPopupViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sorgle.SGPopupViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGPopupViewExample.app/SGPopupViewExample";
+			};
+			name = Release;
+		};
+		18E34AB91DADCA3800D6675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGPopupViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sorgle.SGPopupViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGPopupViewExample;
+			};
+			name = Debug;
+		};
+		18E34ABA1DADCA3800D6675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGPopupViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sorgle.SGPopupViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGPopupViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E34A801DADCA3700D6675F /* Build configuration list for PBXProject "SGPopupViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E34AB01DADCA3800D6675F /* Debug */,
+				18E34AB11DADCA3800D6675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E34AB21DADCA3800D6675F /* Build configuration list for PBXNativeTarget "SGPopupViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E34AB31DADCA3800D6675F /* Debug */,
+				18E34AB41DADCA3800D6675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E34AB51DADCA3800D6675F /* Build configuration list for PBXNativeTarget "SGPopupViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E34AB61DADCA3800D6675F /* Debug */,
+				18E34AB71DADCA3800D6675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E34AB81DADCA3800D6675F /* Build configuration list for PBXNativeTarget "SGPopupViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E34AB91DADCA3800D6675F /* Debug */,
+				18E34ABA1DADCA3800D6675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E34A7D1DADCA3700D6675F /* Project object */;
+}

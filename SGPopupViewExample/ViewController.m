@@ -25,7 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    self.title_arr = @[@"Default - ActionSheet", @"Default - ActionSheet - Message", @"Default - ActionSheet - Scroll", @"Default - ActionSheet - Message - Scroll", @"Default - AlertView", @"Default - AlertView - Two", @"PickerView_bottom", @"PickerView_center", @"DatePicker_bottom", @"DatePicker_center"];
+    self.title_arr = @[@"Default - ActionSheet", @"Default - ActionSheet - Message", @"Default - ActionSheet - Scroll", @"Default - ActionSheet - Message - Scroll", @"Default - AlertView", @"Default - AlertView - Two", @"PickerView - bottom", @"PickerView - center", @"DatePicker - bottom", @"DatePicker - center"];
     
     // 注册
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];

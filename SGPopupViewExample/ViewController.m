@@ -69,9 +69,13 @@
         [sheet show];
     } else if (indexPath.row == 4) {
         SGAlertView *alert = [[SGAlertView alloc] initWithTitle:@"温馨提示 ! !" delegate:nil contentTitle:@"代码不断更新、优化中, 请移步GitHub下载最新Demo" alertViewBottomViewType:(SGAlertViewBottomViewTypeOne)];
+//        alert.sure_btnTitle = @"测试";
+        alert.sure_btnTitleColor = [UIColor redColor];
         [alert show];
     } else if (indexPath.row == 5) {
         SGAlertView *alert = [[SGAlertView alloc] initWithTitle:@"确定退出 ?" delegate:self contentTitle:@"退出登录后将无法查看订单, 重新登录后即可查看" alertViewBottomViewType:(SGAlertViewBottomViewTypeTwo)];
+//        alert.sure_btnTitleColor = [UIColor purpleColor];
+        alert.left_btnTitleColor = [UIColor redColor];
         [alert show];
     } else if (indexPath.row == 6) {
         SGPickerView *pickerView = [[SGPickerView alloc] init];
@@ -123,10 +127,13 @@
     NSLog(@"%ld", indexPath);
 }
 
-- (void)didSelectedSureButtonClick {
-    NSLog(@"您点击的是确定按钮");
+- (void)didSelectedRightButtonClick {
+    NSLog(@"您点击的是Right按钮");
 }
 
+- (void)didSelectedLeftButtonClick {
+    NSLog(@"您点击的是Left按钮");
+}
 
 @end
 

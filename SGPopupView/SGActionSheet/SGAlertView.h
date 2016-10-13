@@ -24,7 +24,10 @@ typedef enum : NSUInteger {
 
 @protocol SGAlertViewDelegate <NSObject>
 
-- (void)didSelectedSureButtonClick;
+/** 确定按钮的点击事件 */
+- (void)didSelectedRightButtonClick;
+/** 取消按钮的点击事件 */
+- (void)didSelectedLeftButtonClick;
 
 @end
 
@@ -34,6 +37,15 @@ typedef enum : NSUInteger {
 @property (nonatomic, assign) SGAlertViewBottomViewType alertViewBottomViewType;
 
 @property (nonatomic, weak) id<SGAlertViewDelegate> delegate_SG;
+
+/** 确定按钮标题(SGAlertViewBottomViewTypeTwo 默认为Right按钮) */
+@property (nonatomic, copy) NSString *sure_btnTitle;
+/** 取消按钮标题 */
+@property (nonatomic, copy) NSString *cancel_btnTitle;
+/** 确定按钮标题颜色(SGAlertViewBottomViewTypeTwo 默认为Right按钮)*/
+@property (nonatomic, strong) UIColor *sure_btnTitleColor;
+/** 确定按钮标题颜色(SGAlertViewBottomViewTypeTwo 样式的Left按钮)*/
+@property (nonatomic, strong) UIColor *left_btnTitleColor;
 
 /**
  *  对象方法创建 SGAlertView

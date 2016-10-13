@@ -89,10 +89,18 @@
 
 * 对象调用show方法, 展示SGAlertView
 
+ * alert.sure_btnTitle = @"测试";
+ * alert.left_btnTitle = @"可以";
+ * alert.sure_btnTitleColor = [UIColor purpleColor];
+ * alert.left_btnTitleColor = [UIColor redColor];
  * 遵循SGAlertViewDelegate协议的delegate_SG方法
 
 ```Objective-C
-- (void)didSelectedSureButtonClick;
+- (void)didSelectedRightButtonClick;
+```
+
+``Objective-C
+- (void)didSelectedLeftButtonClick;
 ```
 
 * 提示信息文字，根据内容自动调节
@@ -150,6 +158,7 @@
 ## 版本介绍
 
 * 2016. 10. 12 --> 第一次提交版本
+* 2016. 10. 13 --> 新增 alertView 按钮属性
 
 
 ## Concluding remarks

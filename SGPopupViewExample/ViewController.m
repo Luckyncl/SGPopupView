@@ -74,6 +74,7 @@
         [alert show];
     } else if (indexPath.row == 5) {
         SGAlertView *alert = [[SGAlertView alloc] initWithTitle:@"确定退出 ?" delegate:self contentTitle:@"退出登录后将无法查看订单, 重新登录后即可查看" alertViewBottomViewType:(SGAlertViewBottomViewTypeTwo)];
+//        alert.left_btnTitle = @"可以";
 //        alert.sure_btnTitleColor = [UIColor purpleColor];
         alert.left_btnTitleColor = [UIColor redColor];
         [alert show];

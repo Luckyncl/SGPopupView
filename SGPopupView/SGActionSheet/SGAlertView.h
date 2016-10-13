@@ -41,7 +41,7 @@ typedef enum : NSUInteger {
 /** 确定按钮标题(SGAlertViewBottomViewTypeTwo 默认为Right按钮) */
 @property (nonatomic, copy) NSString *sure_btnTitle;
 /** 取消按钮标题 */
-@property (nonatomic, copy) NSString *cancel_btnTitle;
+@property (nonatomic, copy) NSString *left_btnTitle;
 /** 确定按钮标题颜色(SGAlertViewBottomViewTypeTwo 默认为Right按钮)*/
 @property (nonatomic, strong) UIColor *sure_btnTitleColor;
 /** 确定按钮标题颜色(SGAlertViewBottomViewTypeTwo 样式的Left按钮)*/

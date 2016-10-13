@@ -299,9 +299,9 @@ static CGFloat const content_text_fond = 14;
     [_right_button setTitle:sure_btnTitle forState:(UIControlStateNormal)];
 }
 
-- (void)setCancel_btnTitle:(NSString *)cancel_btnTitle {
-    _cancel_btnTitle = cancel_btnTitle;
-    [_left_button setTitle:cancel_btnTitle forState:(UIControlStateNormal)];
+- (void)setLeft_btnTitle:(NSString *)left_btnTitle {
+    _left_btnTitle = left_btnTitle;
+    [_left_button setTitle:left_btnTitle forState:(UIControlStateNormal)];
 }
 
 - (void)setSure_btnTitleColor:(UIColor *)sure_btnTitleColor {
